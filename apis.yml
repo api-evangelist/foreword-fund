@@ -1,8 +1,25 @@
 aid: foreword-fund
 name: Foreword Fund
-description: Foreword Fund is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Foreword Fund is an early-stage venture capital firm led by solo general
+  partner Declan Kelly, backing daring founders in their first chapters. Foreword writes
+  first checks of up to $250,000 at the pre-seed and seed stage, partnering with roughly
+  ten exceptionally focused teams each year across B2B software, fintech, crypto, enterprise
+  software, AI, marketplaces, and consumer sectors in the US and Europe. A partner fund
+  of Seedcamp, its portfolio spans 40-plus companies including unicorns Sorare, Jeeves,
+  and Localyze.
 url: https://raw.githubusercontent.com/api-evangelist/foreword-fund/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/ngrjrkgm/production/dec41acea251a96062d0928c29df2f46fff8b9ec-2880x1620.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Capital
+- Investor
+- Pre-Seed
+- Seed
+- Startups
+- Fintech
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/foreword-fund-domain-security.yml
 - type: Website
-  url: http://foreword.vc
+  url: https://foreword.vc
+- type: Twitter
+  url: https://x.com/forewordvc
+- type: LinkedIn
+  url: https://www.linkedin.com/in/kellydeclan/
+- type: Email
+  url: mailto:hello@foreword.vc
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
