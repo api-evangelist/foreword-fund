@@ -8,6 +8,17 @@ description: Foreword Fund is an early-stage venture capital firm led by solo ge
   of Seedcamp, its portfolio spans 40-plus companies including unicorns Sorare, Jeeves,
   and Localyze.
 url: https://raw.githubusercontent.com/api-evangelist/foreword-fund/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
